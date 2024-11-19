@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.bg-image {
+    display: flex;
+    background-image: url(images/background.webp);
+    height: 100vh;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    color: white;
+    background: oklab(0.321044 -0.000249296 -0.00927344);
+    padding: 32px;
+    width: 719.997px;
+    height: 343.982px;
+    border-radius: 7px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#heading {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+#sub-heading {
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.username {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#username-text, #password-text{
+    text-align: left;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    color: oklab(0.787067 -0.00258079 -0.0110391);
+}
+
+.password {
+    text-align: center;
+}
+
+#password-text2 {
+    text-align: left;
+    margin-top: 4px;
+    font-size: 12px;
+}
+
+#account {
+    text-align: left;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(146, 146, 146);
+}
+
+.bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.qr-img {
+    background-image: url(images/qr.png);
+    width: 100px;
+    height: 100px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin: 0;
+}
+
+button {
+    width: 410px;
+    height: 45px;
+    background: rgb(88, 101, 242);
+    border: none;
+    color: white;
+    font-size: medium;
+    border-radius: 3px;
+}
+
+button:hover {
+    transition: 0.3s;
+    background: rgb(70, 80, 188);
+}
+
+input{
+    width: 400px;
+    height: 40px;
+    padding: 0 5px;
+    background: oklab(0.239468 0.000131123 -0.00589392);
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+
+a {
+    color: oklab(0.705515 -0.0795695 -0.144235);
+    text-decoration: none;
+    font-weight: 500;
+}
